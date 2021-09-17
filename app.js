@@ -1,3 +1,4 @@
-// esto es para que haya algo en la carpeta
-// cambio prueba
-// prueba 3
+const express = require('express');
+const path = require('path');
+
+const app = express ();
