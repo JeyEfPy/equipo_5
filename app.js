@@ -7,7 +7,7 @@ app.use(express.static(path.resolve(__dirname, 'public')));
 
 
 app.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'views/home.html'));
+    res.sendFile(path.resolve(__dirname, './views/home.html'));
 })
 
-app.listen(3050, () => console.log('Server corriendo en el puerto 3000'));
+app.listen(3100, () => console.log('Server corriendo en el puerto 3100'));
