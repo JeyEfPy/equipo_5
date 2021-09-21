@@ -22,14 +22,17 @@
 
 > - Pasar a la acción 
 > - Resolver primero analizar luego
+> - Reuniones
+> - Commits!
 
 #### 4. Menos de: 
 
 > - postergación
 > - falta de acción
+> - falta de comunicacion
 
 ### 5. Dejar de hacer: 
 
-> - Dejar de esperar a tener todo parra arrancar 
-
+> - Dejar de esperar a tener todo parra arrancar
+> - 
 
