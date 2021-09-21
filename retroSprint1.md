@@ -7,9 +7,14 @@
 > - Comunicarnos más
 > - Usar Trello
 > - Usar Slack
-> - ser proactivos  
+> - *ser proactivos*  
 > - Llevar una agenda (salck + trello);
-> - Identificar fortalezad de cada uno para trabajer en equipo 
+> - Identificar fortalezad de cada uno para trabajer en equipo:
+
+    - Tomas: programar (html, css, javascript) 
+    - Lucas: html
+    - Andres: javascript 
+    - Juan: html, 
 
 ### 2. Mas de: 
 
