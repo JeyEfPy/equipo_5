@@ -38,7 +38,7 @@ La página tendrá secciones por cada servicio (marcas, patentes, sociedades y c
 
 > **Juan Porta**: _38 años, abogado especialista en propiedad intelectial. Emprendedor_
 
-> **Participante Nro.3**: __
+> **Tomas Lopez Forastier**: _19 años, estudiante de ingenieria en informatica y diseño web_
 
 > **Participante Nro.4** : __
 
