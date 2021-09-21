@@ -40,7 +40,7 @@ La página tendrá secciones por cada servicio (marcas, patentes, sociedades y c
 
 > **Tomas Lopez Forastier**: _19 años, estudiante de ingenieria en informatica y diseño web_
 
-> **Participante Nro.4** : __
+> **Andres Moreno Fresneda** : _17 años, jugador de futbol semiprofesional, estudiante_
 
 # Buscar insiporación en referentes del mercado: 
 
