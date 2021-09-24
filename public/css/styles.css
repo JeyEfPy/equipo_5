@@ -1,6 +1,97 @@
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+ul {
+    background-color: black;
+    list-style: none;
 
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+ul li a{
+    color: #FFF;
+    display: block;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color: #BD1919 ;
+}
 
-.main-header {
-    background-color: #eac926;
-    padding: 20px
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    background-color:#FFF;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: white;
+}
+
+main section article i{
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+article div.main-article{
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+.box-price {
+    display: flex;
+}
+.box-price .price {
+    width: 30%;
+}
+.box-price .discount {
+    width: 70%;
+}
+
+@media (min-width: 361px){
+    header nav{ 
+        display: block;
+    }
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .products article {
+        width: 45%;
+    }
+
+    main section article .description{
+        display: block;
+    }
+
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+@media (min-width: 769px){
+    .products article {
+        width: 22%;
+    }
 }
