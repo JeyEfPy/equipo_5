@@ -1,9 +1,13 @@
 body{
     font-family: 'Rajdhani', sans-serif;
 }
+form{
+    text-align: right;
+}
 ul {
     background-color: black;
     list-style: none;
+    text-align: right;
 
 }
 ul li{
@@ -27,7 +31,7 @@ main{
 
 main section article{
     background-color:#FFF;    
-    margin: 10px 0px;
+    margin: 50px 0px;
 }
 
 main section article img{
@@ -42,8 +46,8 @@ main section article i,
 main section article i{
     font-size: 16px;
     padding: 5px;
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 40px;
     border: 1px solid #fff;
     background-color: #FFF;
     border-radius: 50%;
@@ -93,5 +97,6 @@ article div.main-article{
 @media (min-width: 769px){
     .products article {
         width: 22%;
+        height: 400px;
     }
 }
