@@ -14,9 +14,24 @@ body{
     font-family: 'Rajdhani', sans-serif;
 }
 
+.openMenu {
+    display: none;
+}
+
+@media (max-width: 350px){
+    .searchBar{
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+
+}
 
 form{
     text-align: right;
+    display: inline;
 }
 ul {
     background-color: black;
