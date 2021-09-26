@@ -72,11 +72,6 @@ ul li a:hover{
 
 }
 
-.boton01 
-
-
-}
-
 main{
     width: 90%;
     margin: 0 auto;
@@ -104,6 +99,11 @@ main section article i{
     border: 1px solid #fff;
     background-color: #FFF;
     border-radius: 50%;
+}
+
+h3 {
+  display: block;
+  text-decoration: underline;  
 }
 
 main section h3{
@@ -139,10 +139,19 @@ article div.main-article{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        align-items: center;
     }
-    .products article {
+   
+   
+     .products article {
         width: 45%;
+        align-items: center
     }
+
+    .article {
+        align-content: center;
+    }
+
 
     main section article .description{
         display: block;
@@ -159,3 +168,4 @@ article div.main-article{
         height: 400px;
     }
 }
+    ;
