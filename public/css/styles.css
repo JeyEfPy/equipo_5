@@ -48,11 +48,11 @@ ul li a{
     display: block;
     padding: 10px 40px;
     text-decoration: none;
-    transition: 1300ms;
+    transition: all 1300ms;
 }
 ul li a:hover{
-
     background-color: #BD1919;
+    border-radius: 10%;
 }
 
 .searchBar{
