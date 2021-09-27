@@ -14,31 +14,28 @@ body{
     font-family: 'Rajdhani', sans-serif;
 }
 
-
-.slider{
-    width: 85%;
-    margin:auto;
-    overflow: hidden;
+/* BANNER SLIDER */
+img{
+    width: 700px;
 }
-.slider ul{
+
+.slider {
+    width: 95%;
+    margin: auto;
+}
+
+.slider ul {
     display: flex;
     padding: 0;
-    width: 400%;
-    animation: cambio 20s infinite;
-    animation-direction: alternate;
+
 }
+
 .slider li{
-    width: 100%;
     list-style: none;
 }
-.slider img{
-    width: 100%;
-}
 
 
-.openMenu {
-    display: none;
-}
+
 
 @media (max-width: 350px){
     .searchBar{
@@ -51,7 +48,7 @@ body{
 
 }
 
-form{
+.searchBar form{
     text-align: right;
     display: inline;
 }
@@ -62,7 +59,7 @@ ul {
 
 }
 ul li{
-    display: inline-block;
+    display:inline-block;
     padding: 10px;
 }
 ul li a{
@@ -130,7 +127,6 @@ main section article i{
 }
 
 h3 {
-  display: block;
   text-decoration: underline;  
 }
 
@@ -197,11 +193,6 @@ article div.main-article{
     }
 }
 
-@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
-
-body {
-    font-family: 'Alegreya Sans', sans-serif;
-}
 html {
   position: relative;
   min-height: 100%;
@@ -253,18 +244,4 @@ footer .form-control {
     padding: 0.7em 1em;
 }
 
-    ;
-
-@keyframes cambio {
-    0% {margin-left: 0;}
-    20% {margin-left: 0;}
-
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
-
-    50% {margin-left: -200%;}
-    70% {margin-left: -200%;}
-    
-    75% {margin-left: -200%;}
-    100% {margin-left: -200%;}
-}
+;
