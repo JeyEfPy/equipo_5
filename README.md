@@ -46,9 +46,11 @@ La página tendrá secciones por cada servicio (marcas, patentes, sociedades y c
 
 >- www.legalzoom.com
 > - www.lawdepot.com
-> - www.omlegal.com 
+> - www.onlegal.com.ar 
 > - www.zenbusiness.com
 > - www.rocketlawyer.com
+> - www.idenbiz.com 
+> - https://jpglegal.com/
 
 
 
