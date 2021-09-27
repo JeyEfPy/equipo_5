@@ -73,6 +73,11 @@ main{
 main section article{
     background-color:#FFF;    
     margin: 50px 0px;
+    box-shadow: 0px 0px 20px rgb(100, 100, 100);
+}
+
+main section article:hover{
+    box-shadow: 0px 0px 20px rgb(100, 100, 100);
 }
 
 main section article img{
@@ -92,6 +97,7 @@ main section article i{
     border: 1px solid #fff;
     background-color: #FFF;
     border-radius: 50%;
+    
 }
 
 main section h3{
