@@ -25,7 +25,7 @@ body{
     display: flex;
     padding: 0;
     width: 700%;
-    animation: cambio 40s infinite;
+    animation: cambio 60s infinite;
 }
 .slider li {
     width: 100%;
@@ -37,24 +37,24 @@ body{
 
 @keyframes cambio {
     0% { margin-left: 0;}
-    15% { margin-left: 0;}
+    10% { margin-left: 0;}
     
-    15% { margin-left: -100%;}
+    20% { margin-left: -100%;}
     30% { margin-left: -100%;}
 
     30% { margin-left: -200%;}
-    35% { margin-left: -200%;}
+    38% { margin-left: -200%;}
 
-    35% { margin-left: -300%;}
+    42% { margin-left: -300%;}
     50% { margin-left: -300%;}
      
-    50% { margin-left: -400%;}
-    65% { margin-left: -400%;}
+    58% { margin-left: -400%;}
+    66% { margin-left: -400%;}
 
-    65% { margin-left: -500%;}
+    70% { margin-left: -500%;}
     80% { margin-left: -500%;}
 
-    80% { margin-left: -600%;}
+    88% { margin-left: -600%;}
     100% { margin-left: -600%;}
 }
 
