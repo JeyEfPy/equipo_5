@@ -10,6 +10,29 @@
     display: flex;
 }  
 
+
+/* TOP MENU */
+.submenu {
+    text-align: right;
+
+}
+.submenu ul{
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    display: inline-flex;
+    position: relative;
+
+}
+.submenu li{
+    display: block;
+    padding: 10px;
+}
+
+.submenu ul li{
+    text-decoration: none;
+}
+
 body{
     font-family: 'Rajdhani', sans-serif;
 }
@@ -129,7 +152,7 @@ main section article:hover{
 }
 
 main section article img{
-    width: 100%;
+    width: 70%;
 }
 
 main section article i,
