@@ -1,12 +1,247 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
+
+    <title>EasyLegal</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+        </style>
+
 </head>
+
 <body>
-    Probando Path A Formulario de "Register"
-</body>
+    
+        <article class="menutop">
+            <nav class="submenu">
+              <ul>
+                <li><a href="#">Ingresar</a></li>
+                <li><a href="#">registrarse</a></li>
+                <li><a href="#">mis cuentas</a></li>
+                <li><a href="#">mis compras</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </nav>    
+            </article>   
+    <header>
+      <div class="top-header">
+          <div class="logo"> 
+              <img src="/images/EASYLEGAL.png" alt="Logo de EasyLegal">
+          </div>
+          <div class="form" action="#" method="GET">
+              <div class="submit"><i class="fa fa-search"></i></div>
+          </div>
+          <p><i class="fas fa-hand-holding-usd"></i></p>
+      </div>
+
+
+
+    </header>
+    <div class="searchBar">
+        <form>
+            <input type="search" name="q" placeholder="Buscar">
+            <input type="submit" value="Vamos!">
+        </form>
+    </div>
+    <article class="menus1">
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Documentos</a></li>
+        <li><a href="#">Nuestro equipo</a></li>
+        <li><a href="#">Proyectos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>    
+    </article>    
+
+   
+
+
+
+    <form action="/nuevo-usuario" method="POST" enctype="multipart/form-data">
+        
+        <label> Usuario Nuevo </label>
+        
+        <p class= "form-control">
+            <label  for="nombre" > Nombre y Apellido: </label>
+            <input type="text" name= "nombre">   
+        </p>
+
+        <p class= "form-control">
+            <label for="email" > e.mail: </label>
+            <input type="email" name= "email">   
+        </p>
+
+        <p class= "form-control">
+            <label  for="fechaNacimiento" > Fecha de Nacimiento: </label>
+            <input type="date" name= "date">   
+        </p>
+        
+        <p class= "form-control">
+            <label  for="domicilio" > Domicilio: </label>
+            <input type="textarea" name= "domicilio">   
+        </p>
+
+        <p>
+            <label  for="tipoDeUsuario" > Perfil de usuario: </label>
+            <input type="radio" name= "tipoDeUsuario" value="vendedor"> Vendedor
+            <input type="radio" name= "tipoDeUsuario" value="comprador"> Comprador 
+        </p>
+
+        <p>
+            <p> Tilda lo que te intersa: </p>
+
+            <input type="checkbox" name= "interes" value="Electro"> Electro;
+            <input type="checkbox" name= "interes" value="Moda"> Moda;
+            <input type="checkbox" name= "interes" value="Hogar"> Hogar;
+            <input type="checkbox" name= "interes" value="Jugeuteria"> Juguetería;
+            <input type="checkbox" name= "interes" value="VidaSana"> Vida Sana;
+        
+        </p>
+        <p></p>
+        <p>
+            <label> Subir foto de Usuario: </label>
+            <input type="file" value="fotoPerfil" accept= ".jpg, .jpeg, .png">
+
+        </p>
+        <p></p>
+        <p>
+            <label> Contarseña:</label>
+            <input type="password" name="clave">
+        </p>
+        <p>
+           <label> Confirmar Contarseña:</label>
+            <input type="password" name="clave">  
+        </p>
+
+        <p>
+            <button type="submit" class="enviar"> ENVIAR </button>
+            <button type="reset" class="borrar"> BORRAR </button>
+        </p>
+
+        
+    
+    </form>
+    
+  
+<main>
+      <section class="offers">
+          <div class="banner">
+          </div>
+          <div class="products">
+              <article>
+                  <img src="images/CONTRATOS.png" alt="PRODUCTO1" class="product_img">
+                  <div class="main-article">
+                      <div class="box-price">
+                          <p class="price">DESDE AR $10.000</p>
+                          <p class="discount"></p>
+                      </div>
+                      <h4 class="description">REGISTRA TU MARCA</h4>
+                  </div>
+              </article>
+              <article>
+                  <img src="images/SOCIEDAD.png" alt="PRODUCTO2" class="product_img">
+                  <div class="main-article">
+                      <div class="box-price">
+                          <p class="price">$$</p>
+                          <p class="discount"></p>
+                      </div>
+                      <h4 class="description">CONSTITUI SOCIEDAD</h4>
+                  </div>
+              </article>
+              <article>
+                  <img src="images/CONTRATOS.png" alt="PRODUCTO3" class="product_img">
+                  <div class="main-article">
+                      <div class="box-price">
+                          <p class="price"></p>
+                          <p class="discount"></p>
+                      </div>
+                  <h4 class="description">CONTRATOS</h4>
+                  </div>
+              </article>
+              <article>
+                  <img src="images/BASEDEDATOS.png" alt="PRODUCTO4" class="product_img">
+                  <div class="main-article">
+                      <div class="box-price">
+                          <p class="price">$$</p>
+                          <p class="discount"></p>
+                      </div>
+                      <h4 class="description">REG. BASE DE DATOS"</h4>
+                  </div>
+              </article>
+          </div>
+      </section>
+  </main>
+
+  
+  <footer class="footer-distributed">
+ 
+    <div class="footer-left">
+    
+    <h3>EasyLegal<span>DH</span></h3>
+    
+    <p class="footer-links">
+    <a href="#">Inicio</a>
+    ·
+    <a href="#">Documentos</a>
+    ·
+    <a href="#">Nuestro Equipo</a>
+    ·
+    <a href="#">Proyectos</a>
+    ·
+    <a href="#">Contacto</a>
+    ·
+    <a href="#">Ayuda</a>
+    </p>
+    
+    <p class="footer-company-name">Easylegal/DH &copy; 2021</p>
+    </div>
+    
+    <div class="footer-center">
+    
+    <div>
+    <i class="fa fa-map-marker"></i>
+    <p><span>Registra tu marca con /Easylegal/</span> Argentina, Colombia</p>
+    </div>
+    
+    <div>
+    <i class="fa fa-phone"></i>
+    <p>+54 300 567-2222
+        +57 302 926 8800
+    </p>
+    </div>
+    
+    <div>
+    <i class="fa fa-envelope"></i>
+    <p><a href="support@company.com">Easylegal@DigitalHouse.com</a></p>
+    </div>
+    
+    </div>
+    
+    <div class="footer-right">
+    
+    <p class="footer-company-about">
+    <span>About the company</span>
+    Registra tu marca con EasyLegal, la forma mas sencilla y segura para proteger tu marca &amp; #EasyLegal2021.
+    </p>
+    
+    <div class="footer-icons">
+    
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-github"></i></a>
+    
+    </div>
+        <p>©Copyright 2021 EasyLegal. Todos los derechos reservados.</p>
+    </footer>
+    
+
+
+  </body>
 </html>

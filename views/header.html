@@ -8,5 +8,72 @@
 </head>
 <body>
 
+
+
+
+    <form action="/nuevo-usuario" method="POST" enctype="multipart/form-data">
+        
+        <label> Usuario Nuevo </label>
+        
+        <p class= "form-control">
+            <label  for="nombre" > Nombre y Apellido: </label>
+            <input type="text" name= "nombre">   
+        </p>
+
+        <p class= "form-control">
+            <label for="email" > e.mail: </label>
+            <input type="email" name= "email">   
+        </p>
+
+        <p class= "form-control">
+            <label  for="fechaNacimiento" > Fecha de Nacimiento: </label>
+            <input type="date" name= "date">   
+        </p>
+        
+        <p class= "form-control">
+            <label  for="domicilio" > Domicilio: </label>
+            <input type="textarea" name= "domicilio">   
+        </p>
+
+        <p>
+            <label  for="tipoDeUsuario" > Perfil de usuario: </label>
+            <input type="radio" name= "tipoDeUsuario" value="vendedor"> Vendedor
+            <input type="radio" name= "tipoDeUsuario" value="comprador"> Comprador 
+        </p>
+
+        <p>
+            <p> Tilda lo que te intersa: </p>
+
+            <input type="checkbox" name= "interes" value="Electro"> Electro;
+            <input type="checkbox" name= "interes" value="Moda"> Moda;
+            <input type="checkbox" name= "interes" value="Hogar"> Hogar;
+            <input type="checkbox" name= "interes" value="Jugeuteria"> Juguetería;
+            <input type="checkbox" name= "interes" value="VidaSana"> Vida Sana;
+        
+        </p>
+        <p></p>
+        <p>
+            <label> Subir foto de Usuario: </label>
+            <input type="file" value="fotoPerfil" accept= ".jpg, .jpeg, .png">
+
+        </p>
+        <p></p>
+        <p>
+            <label> Contarseña:</label>
+            <input type="password" name="clave">
+        </p>
+        <p>
+           <label> Confirmar Contarseña:</label>
+            <input type="password" name="clave">  
+        </p>
+
+        <p>
+            <button type="submit" class="enviar"> ENVIAR </button>
+            <button type="reset" class="borrar"> BORRAR </button>
+        </p>
+
+        
+    
+    </form>
 </body>
 </html>
