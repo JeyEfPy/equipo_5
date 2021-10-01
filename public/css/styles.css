@@ -203,10 +203,19 @@ article div.main-article{
     padding: 10px 15px;
     color: #FFF;
     display: inline-block;
-    text-align: center;
-    background: #3866f2;
-    background: -webkit-linear-gradient(to right, #BD1919, #4568DC);
-    background: linear-gradient(to right,#BD1919, #4568DC);
+    background: gray;
+
+}
+
+.botoncarrito:hover {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #FFF;
+    display: inline-block;
+    background:#BD1919;
+    border-radius: 7%;
+    transition: all 1300ms;
+
 }
 
 @media (min-width:50px) {
