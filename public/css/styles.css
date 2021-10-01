@@ -35,6 +35,7 @@
 
 body{
     font-family: 'Rajdhani', sans-serif;
+    
 }
 
 
@@ -42,7 +43,7 @@ body{
 
 /* BANNER SLIDER */
 .slider {
-    width: 95%;
+    width: 85%;
     margin: auto;
     overflow: hidden;
 }
@@ -387,16 +388,121 @@ footer{
 /*  FORMULARIO */
 
 .form-register{
-    background-color: gray;
+    width: 100%;
+    background-color: rgb(197, 197, 197);
     width: 400px;
-    background-color: rgb(209, 209, 209);
     padding: 30px;
     margin: auto;
     margin-top: 0;
+    text-align: center;
+    align-items: center;
+    box-shadow: 7px rgb(211, 188, 188);
+}
+.controls{
+    width: 96%;
+    padding: 5px;
     border-radius: 4px;
+    margin-top: 15px;
+
+    
+}
+.Nacionalidad{
+    width: 100%;
+    padding: 5px;
+    border-radius: 2px;
+    margin-top: 15px;
+    
+}
+.form-register .botons {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background:#4568DC;
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: #FFF;
+    height: 40px;
+    font-size: 16px;
+    cursor:pointer;
+
+}
+
+.formL {
+    background: rgb(206, 198, 198);
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
     text-align: center;
 }
-.form-register register{
-    
-    
+.form-title{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.formL-p {
+    font-weight: 300;
+}
+.formL-link{
+    font-weight: 400;
+    color: black;
+}
+.form-container {
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em ;
+}
+.form-group{
+    position: relative;
+    --color: #5757577e;
+}
+.form-input{
+    width: 100%;
+    background: none;
+    color:#000;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+
+
+}
+.form-input:focus + .form-input:not(:placeholder-shown){
+    color: #4d4646;
+}
+
+.form-input:focus + .form-label, .form-input:not(:placeholder-shown) + .form-label{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+    color: #BD1919 ;
+}
+.form-label{
+    color: var(--color);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+}
+.form-submit {
+    background: #3866f2;
+    color: #FFF;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em 0;
+    border: none;
+    border-radius: .5em;
+}
+.form-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+
 }

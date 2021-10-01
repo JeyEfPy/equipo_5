@@ -19,8 +19,8 @@
         <article class="menutop">
             <nav class="submenu">
               <ul>
-                <li><a href="#">Ingresar</a></li>
-                <li><a href="#">registrarse</a></li>
+                <li><a href="/login">Ingresar</a></li>
+                <li><a href="/register">registrarse</a></li>
                 <li><a href="#">mis cuentas</a></li>
                 <li><a href="#">mis compras</a></li>
                 <li><a href="#">Contacto</a></li>
@@ -66,38 +66,12 @@
     <form class="form-register" action="/nuevo-usuario" method="POST" enctype="multipart/form-data">
         
         <label><h2>Usuario Nuevo </h2> </label>
-        
-
-        
-        <p class= "register">
-            <input  for="nombre" placeholder="Nombre y Apellido" > Nombre y Apellido: </label>
-            <input type="text" name= "nombre">   
-        </p>
-        <p>
-            <label class="lista" > Tipo Documento:</label>
-            <select name="documentos">
-                <option value="DNI" id="DNI">DNI</option>
-                <option value="Pasaporte" id="AF">Pasaporte</option>
-                <option value="Cedula" id="AL">Cedula</option>
-            </select>
-
-             <label>Número</label>
-             <input type="number" name="DNI">  
-         </p>
-
-        <p class= "email">
-            <label for="email" > e.mail: </label>
-            <input type="email" name= "email">   
-        </p>
-
-        <p class= "Fecha">
-            <label  for="fechaNacimiento" > Fecha de Nacimiento: </label>
-            <input type="date" name= "date">   
-        </p>
-        <p class="nacionalidad"> </p>
-            <label  for="fechaNacimiento" >Nacionalidad: </label>
-            <select name="pais">
-                <option value="Elegir" id="AF">Elegir opción</option>
+        <input class="controls" type="text" name="nombre" id="nombres" placeholder="Nombre y apellido">
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Email">
+        <input class="controls" type="password" name="nombre" id="password" placeholder="Ingrese su Password">
+        <input class="controls" type="password" name="nombre" id="repassword" placeholder="Repita su Password">
+            <select class="Nacionalidad" name="pais">
+                <option value="Elegir" id="AF">Nacionalidad:</option>
                 <option value="Afganistán" id="AF">Afganistán</option>
                 <option value="Albania" id="AL">Albania</option>
                 <option value="Alemania" id="DE">Alemania</option>
@@ -336,24 +310,8 @@
                 <option value="Zambia" id="ZM">Zambia</option>
                 <option value="Zimbabue" id="ZW">Zimbabue</option>
                 </select>
-              
-            
-        <p>
-            <label class="pass"> Contarseña:</label>
-            <input type="password" name="clave">
-        </p>
-        <p>
-           <label class="pass"> Confirmar Contarseña:</label>
-            <input type="password" name="clave">  
-        </p>
-
-        <p class="boton">
-            <button type="submit" class="enviar">REGISTRARSE</button>
-            
-        </p>
-
-        
-    
+        <input class="botons" type="submit" value="Registrarse">
+        <p><a href="#">¿Ya tengo Cuenta?</a></p>              
     </form>
     
   
