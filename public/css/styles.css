@@ -491,6 +491,8 @@ footer{
 }
 .form-submit {
     background: #3866f2;
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right,#B06AB3, #4568DC);
     color: #FFF;
     font-weight: 300;
     font-size: 1rem;
