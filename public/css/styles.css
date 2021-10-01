@@ -426,9 +426,9 @@ footer{
     cursor:pointer;
 
 }
-
+/* LOGINN ///////////////////////////*/
 .formL {
-    background: rgb(206, 198, 198);
+    background: #ECE9E8;
     margin: 0;
     padding: auto;
     box-sizing: border-box;
@@ -491,8 +491,8 @@ footer{
 }
 .form-submit {
     background: #3866f2;
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
-    background: linear-gradient(to right,#B06AB3, #4568DC);
+    background: -webkit-linear-gradient(to right, #BD1919, #4568DC);
+    background: linear-gradient(to right,#BD1919, #4568DC);
     color: #FFF;
     font-weight: 300;
     font-size: 1rem;
@@ -506,8 +506,9 @@ footer{
     left: 0;
     width: 100%;
     height: 1px;
-
 }
+
+/* /////////////////////////FIN LOGIN*/
 .whatsapp{
     position: fixed;
     width: 55px;
@@ -523,6 +524,6 @@ footer{
     z-index: 100;
 }
 .whatsapp:hover{
-    text-decoration: none;
-    background: #FFF;
+    text-decoration: none
+    
 }
