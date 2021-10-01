@@ -509,14 +509,19 @@ footer{
 }
 
 /* /////////////////////////FIN LOGIN*/
+
+
+/*//////////////////////////REGISTER */
+
+
 .whatsapp{
     position: fixed;
-    width: 55px;
-    height: 55px;
+    width: 30px;
+    height: 30px;
     line-height: 55px;
     bottom: 30px;
     right: 30px;
-    blackground: #0df053;
+    background: #0df053;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
