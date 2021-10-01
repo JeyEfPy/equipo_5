@@ -197,6 +197,18 @@ article div.main-article{
 .box-price .discount {
     width: 70%;
 }
+
+.botoncarrito{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #FFF;
+    display: inline-block;
+    text-align: center;
+    background: #3866f2;
+    background: -webkit-linear-gradient(to right, #BD1919, #4568DC);
+    background: linear-gradient(to right,#BD1919, #4568DC);
+}
+
 @media (min-width:50px) {
     .searchBar{
         text-align: right;
@@ -241,10 +253,11 @@ article div.main-article{
         height: 400px;
     }
 }
-
+/*  /////////////////////////////FOOTER */
 footer{
     position: relative;
     bottom: 0;
+    display: flex;
    }
    .footer-distributed{
     background-color: #BD1919;
@@ -262,8 +275,8 @@ footer{
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
 .footer-distributed .footer-right{
- display: inline-block;
- vertical-align: top;
+ /*display: inline-block;
+ vertical-align: top;*/
 }
 
 .footer-distributed .footer-left{
@@ -370,7 +383,7 @@ footer{
    }
 
    .footer-distributed .footer-icons a{
-    display: inline-block;
+    display: inline-flex;
     width: 35px;
     height: 35px;
     cursor: pointer;
@@ -511,9 +524,7 @@ footer{
 /* /////////////////////////FIN LOGIN*/
 
 
-/*//////////////////////////REGISTER */
-
-
+/*    //////////////////////// WHATSAPP ICON*/
 .whatsapp{
     position: fixed;
     width: 30px;
