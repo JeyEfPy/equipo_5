@@ -37,6 +37,9 @@ body{
     font-family: 'Rajdhani', sans-serif;
 }
 
+
+
+
 /* BANNER SLIDER */
 .slider {
     width: 95%;
@@ -381,3 +384,19 @@ footer{
  margin-bottom: 5px;
 }
 
+/*  FORMULARIO */
+
+.form-register{
+    background-color: gray;
+    width: 400px;
+    background-color: rgb(209, 209, 209);
+    padding: 30px;
+    margin: auto;
+    margin-top: 0;
+    border-radius: 4px;
+    text-align: center;
+}
+.form-register register{
+    
+    
+}
