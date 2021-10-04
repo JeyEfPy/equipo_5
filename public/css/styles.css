@@ -521,6 +521,7 @@ footer{
     padding: .8em 0;
     border: none;
     border-radius: .5em;
+    cursor: pointer;
 }
 .form-line {
     position: absolute;
