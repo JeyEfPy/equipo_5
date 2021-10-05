@@ -116,7 +116,6 @@ body{
     display: block;
     padding: 10px 40px;
     text-decoration: none;
-    transition: all 1300ms;
 }
 .menu ul li a:hover{
     background-color: #BD1919;
@@ -125,9 +124,8 @@ body{
 
 .searchBar{
     position: relative;
-    bottom: 100px;
-    right: 100px;
-    
+    bottom: 150px;
+    right: 80px;
 }
 
 .menu{
@@ -198,25 +196,7 @@ article div.main-article{
     width: 70%;
 }
 
-.botoncarrito{
-    text-decoration: none;
-    padding: 10px 15px;
-    color: #FFF;
-    display: inline-block;
-    background: gray;
 
-}
-
-.botoncarrito:hover {
-    text-decoration: none;
-    padding: 10px 15px;
-    color: #FFF;
-    display: inline-block;
-    background:#BD1919;
-    border-radius: 7%;
-    transition: all 1300ms;
-
-}
 
 @media (min-width:50px) {
     .searchBar{
@@ -281,12 +261,7 @@ footer{
     margin-top: 80px;
    }
 
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
- /*display: inline-block;
- vertical-align: top;*/
-}
+
 
 .footer-distributed .footer-left{
     width: 40%;
@@ -554,8 +529,6 @@ footer{
     
 }
 
-/* CARRITO ///////////////////////////*/
-
 
 
 *{
@@ -755,4 +728,9 @@ tr img {
         width: 100px;
     }
 
-    /* /////////////////////////CARRITO*/
+}    /* /////////////////////////CARRITO*/
+
+
+.carrito {
+
+}
