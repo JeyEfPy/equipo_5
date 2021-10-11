@@ -6,7 +6,8 @@
 
 > - Más reuniones  
 > - Ponernos al día con el material y sprints
-> - Cambiar como venimos, para hacer más
+> - Cambiar como venimos, para hacer más;
+> - *llevar los vencimientos de los sprints;* 
 
 > - Identificar fortalezad de cada uno para trabajer en equipo:
 
