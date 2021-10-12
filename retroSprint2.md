@@ -40,4 +40,3 @@
 
 > - Dejar de esperar a tener todo parra arrancar
 > - 
-
