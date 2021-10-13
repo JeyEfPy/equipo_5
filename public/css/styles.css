@@ -149,7 +149,12 @@ main{
 main section article{
     background-color:#FFF;    
     margin: 50px 0px;
-    box-shadow: 0px 0px 20px rgb(100, 100, 100);
+    box-shadow: 0px 0px 20px rgb(100, 100, 100);    
+    align-items: center;
+}
+
+.products {
+
 }
 
 main section article:hover{
