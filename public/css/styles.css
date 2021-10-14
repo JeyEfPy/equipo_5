@@ -162,7 +162,7 @@ main section article:hover{
 }
 
 main section article img{
-    width: 70%;
+    main-detalles
 }
 
 main section article i,
@@ -662,3 +662,89 @@ background: linear-gradient(to right,#BD1919, #4568DC);
 }
 
 /* /////////////////////////CARRITO*/
+
+/*Detalle de compra*/
+.section-detalleCompra {
+    display:flex;
+    border:3px solid black;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 150px;
+    justify-content: space-around;
+    
+}
+.product_imgg{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin-top: 5%;
+    order: -1;
+    
+}
+.h2-producto{
+    margin-top: 10%;
+    margin-right: 10%;
+    order: 2;
+    text-align: justify-all;
+    
+    
+}
+.lorem{
+    align-self: end;
+}
+
+
+
+@media (min-width: 361px){
+    
+    .div-detalle {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+   
+     .div-detalle article {
+        width: 45%;
+        align-items: center
+    }
+
+    .article {
+        align-content: center;
+    }
+
+
+    main section article .description{
+        display: block;
+    }
+
+   
+}
+
+@media (min-width: 769px){
+    .div-detalle article {
+        width: 45%;
+        height: 400px;
+    }
+}
+
+.main-detalle{
+    
+    background-color:#FFF;    
+    
+    align-items: center;
+    width: 90%;
+    margin-bottom: 150px;
+    
+   
+}
+
+.article-detalle{
+    margin-top:80px;
+    
+    padding:30px;
+    
+}
+/*¨+++++++++++++++++++++++++*/
