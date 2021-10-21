@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'))
 
 app.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname, './views/home.html'));
+    res.sendFile(path.resolve(__dirname, './views/home.ejs'));
 })
 
 app.get ("/register", (req, res) => {
