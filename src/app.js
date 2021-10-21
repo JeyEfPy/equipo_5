@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
-app.use(express.static(path.resolve(__dirname, 'public')));
+app.use(express.static(path.resolve(__dirname, '../public')));
 
 app.set('view engine', 'ejs');
 
@@ -28,5 +28,7 @@ app.get ("/carrito", (req, res) => {
 app.get ("/detalleProducto", (req, res) => {
     res.sendFile(path.resolve(__dirname, "./views/detalleProducto.html"));
 })
+
+
 
 app.listen(3100, () => console.log('Server corriendo en el puerto 3100'));
