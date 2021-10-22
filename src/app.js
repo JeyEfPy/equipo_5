@@ -1,13 +1,20 @@
-   
-const express = require('express');
-const path = require('path');
+const express = require ("express"); 
+const app = express(); 
+const rutasProductos = require ("./routes/products.js")
+const rutasMain = require("./routes/main.js")
+const rutasUsers = require("./routes/users.js")
+const path = require("path");
 
-const app = express();
+
 app.use(express.static(path.resolve(__dirname, '../public')));
 
 app.set('view engine', 'ejs');
+app.set('views', path.resolve(__dirname, 'views'));
 
-app.use(express.static('public'))
+app.use("/", rutasMain)
+app.use("/users", rutasUsers)
+app.use("/products", rutasProductos)
+
 
 app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname, './views/home.ejs'));

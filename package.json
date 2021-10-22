@@ -2,7 +2,7 @@
   "name": "proyectointegrador_grupo5",
   "version": "1.0.0",
   "description": "- Servicios de registro de Marcas",
-  "main": "app.js",
+  "main": "./src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
