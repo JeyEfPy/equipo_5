@@ -15,7 +15,7 @@ app.use("/", rutasMain)
 app.use("/users", rutasUsers)
 app.use("/products", rutasProductos)
 
-
+/*
 app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname, './views/home.ejs'));
 })
@@ -36,6 +36,6 @@ app.get ("/detalleProducto", (req, res) => {
     res.sendFile(path.resolve(__dirname, "./views/detalleProducto.html"));
 })
 
-
+*/
 
 app.listen(3100, () => console.log('Server corriendo en el puerto 3100'));

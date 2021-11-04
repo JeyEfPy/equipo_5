@@ -1,21 +1,13 @@
 const express = require("express");
+
+const { detalleProductosComentario } = require("../controllers/productsController");
 const router = express.Router(); 
+const controller = require("../controllers/productsController");
 
-router.get("/", function (req, res,) {
-    res.sendFile ("../views/detalleProductos.ejs"); 
-});
+router.get("/detalleProductos", controller.detalleProductos);
 
-router.get("/:idProducto", function (req, res,) {
-    res.send("Bienvenidos al detalle de producto " + req.params.idProducto); 
-});
+router.get("/:idProducto?", controller.detalleProductosId);
 
-router.get("/:idProducto/comentarios/:idComentario?", 
-    function (req, res,) {
-    if (req.params.idComentario == undefined) {
-        res.send ("Bienvenido a los comentarios del Producto " + req.params.idProducto)
-    } else  
-    res.send("Bienvenidos a los comentarios de producto " + req.params.idProducto +
-     " y etas enfocado en el comentario número " + req.params.idComentario); 
-});
+router.get("/:idProducto?/comentarios/:idComentario?", detalleProductosComentario);
 
 module.exports = router; 
